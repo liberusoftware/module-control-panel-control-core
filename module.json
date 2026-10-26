@@ -17,10 +17,15 @@
     "control-panel.control-core"
   ],
   "features": [
-    "Node lifecycle and capability inventory",
+    "Node lifecycle",
+    "Capability inventory",
     "Encrypted node credentials",
+    "SSH key deployment and connection-test operations",
+    "Task engine with cancellation, durable step logs, timeout handling, compensation, and retry recovery",
+    "Inventory records",
     "Desired and observed state",
-    "Idempotent operation locks"
+    "Idempotent operation locks",
+    "Audit records"
   ],
   "default_enabled": false
 }
